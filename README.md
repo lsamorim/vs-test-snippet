@@ -15,3 +15,5 @@ A snippet for Visual Studio 2017/2019 to help developers write unit tests using 
    * **xtheory** - creates a test method with xtheory fact template
 
 ---
+Example using **xfact**:
+![](xfac-sample.gif)
