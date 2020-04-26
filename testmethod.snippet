@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>mstest</Title>
+      <Author>
+      Lucas Amorim
+      </Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>mstest</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>MethodName</ID>
+          <ToolTip>Method Name</ToolTip>
+          <Default>MethodName</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>GivenScenario</ID>
+          <ToolTip>Given Scenario</ToolTip>
+          <Default>GivenScenario</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>ExpectedResult</ID>
+          <ToolTip>Expected Result</ToolTip>
+          <Default>ExpectedResult</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Kind="method decl"><![CDATA[[TestMethod]
+public void $MethodName$_When_$GivenScenario$_Should_$ExpectedResult$()
+{
+    // Arrange
+            
+
+    // Act
+            
+
+    // Assert
+            
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>xfact</Title>
+      <Author>
+      Lucas Amorim
+      </Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>xfact</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>MethodName</ID>
+          <ToolTip>Method Name</ToolTip>
+          <Default>MethodName</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>GivenScenario</ID>
+          <ToolTip>Given Scenario</ToolTip>
+          <Default>GivenScenario</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>ExpectedResult</ID>
+          <ToolTip>Expected Result</ToolTip>
+          <Default>ExpectedResult</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Kind="method decl"><![CDATA[[Fact]
+public void $MethodName$_When_$GivenScenario$_Should_$ExpectedResult$()
+{
+    // Arrange
+            
+
+    // Act
+            
+
+    // Assert
+            
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>xtheory</Title>
+      <Author>
+      Lucas Amorim
+      </Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>xtheory</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>TheroryInput1</ID>
+          <ToolTip>Therory Inputs</ToolTip>
+          <Default>TheroryInput1</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>TheroryInput2</ID>
+          <ToolTip>Therory Inputs</ToolTip>
+          <Default>TheroryInput2</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>MethodName</ID>
+          <ToolTip>Method Name</ToolTip>
+          <Default>MethodName</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>GivenScenario</ID>
+          <ToolTip>Given Scenario</ToolTip>
+          <Default>GivenScenario</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>ExpectedResult</ID>
+          <ToolTip>Expected Result</ToolTip>
+          <Default>ExpectedResult</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>TheroryParamType</ID>
+          <ToolTip>Therory Parameter Type</ToolTip>
+          <Default>int</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>TheroryParamName</ID>
+          <ToolTip>Therory Parameter Name</ToolTip>
+          <Default>parameter</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Kind="method decl"><![CDATA[[Theory]
+[InlineData($TheroryInput1$)]
+[InlineData($TheroryInput2$)]
+public void $MethodName$_When_$GivenScenario$_Should_$ExpectedResult$($TheroryParamType$ $TheroryParamName$)
+{
+    // Arrange
+            
+
+    // Act
+            
+
+    // Assert
+            
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+
+</CodeSnippets>
