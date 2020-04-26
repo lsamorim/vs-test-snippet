@@ -16,4 +16,4 @@ A snippet for Visual Studio 2017/2019 to help developers write unit tests using 
 
 ---
 Example using **xfact**:
-![](xfac-sample.gif)
+![](xfact-sample.gif)
