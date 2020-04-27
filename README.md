@@ -12,7 +12,7 @@ A snippet for Visual Studio 2017/2019 to help developers write unit tests using 
 * The snippet gives you 3 shortcuts:
    * **mstest** - creates a test method with ms test template
    * **xfact** - creates a test method with xunit fact template
-   * **xtheory** - creates a test method with xtheory fact template
+   * **xtheory** - creates a test method with xunit theory template
 
 ---
 Example using **xfact**:
