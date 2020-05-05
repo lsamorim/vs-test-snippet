@@ -1,7 +1,7 @@
 # Test Snippet for Visual Studio
 A snippet for Visual Studio 2017/2019 to help developers write unit tests using C# **MsTest** or **XUnit**. 
 
-# How to import to Visual Studio
+# How to import into Visual Studio
 * Download testmethod.snippet
 * In Visual Studio, go to ```Tools>Code Snippets Manager```
 * Select ```CSharp Language```
